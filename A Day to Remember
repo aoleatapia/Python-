@@ -1,0 +1,25 @@
+score = 0
+from Questions import questions to quiz
+for questions in quiz:
+    pass
+
+for question in quiz:
+    attempts = 4
+    
+    while attempts > 0:
+            pass   
+    print(quiz[questions]['questions']) 
+    answer = input("Type Answers:")
+    score += 1
+    break
+attempts -=1
+
+def check_ans(questions, ans, attempts, score):
+    if quiz[questions]['answers'].lower() == ans.lower():
+        print("Correct!\n your score is {score +1 }!")
+        return True
+    else:
+        print(f"wrong answer! Bummer! \n you have {attempts -1} left
+        return False
+    
+    
